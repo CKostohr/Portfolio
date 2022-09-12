@@ -1,46 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chad Kostohryz Portfolio</title>
-  <link rel="stylesheet" href="./assests/reset.css">
-  <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
-  <div class="great">
-    <header class="header1">
-      <img class="Chad" src="" alt="">
 
-      <h1>Chad Kostohryz</h1>
-      <nav>
-        <ul class="internal">
-          <li><a href="About">About Me</a></li>
-          <li><a href="Work">Work</a></li>
-          <li><a href="contact">Contact Me</a></li>
-          <li><a href="resume">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
-  </div>
-    <header class="header2">
-      <p>Greatness Awaits</p>
-    </header>
-<article>
-  <h2>About Me</h2>
-  <p>I started computer programming because of cryptocurrency. Then that lead to networking. I have enjoyed SQL and IT. When I’m not trying to learn new ways of computer programming, I enjoy hiking with my wife of 14 years. I love all things outdoors. Camping tops that list. I have two children of my own and adopted two; they are all boys, ages 6, 8, 12, and 14. I also enjoy cooking so much so that I started a podcast with friends. </p>
-</article>
-<footer>
-  <nav>
-    <ul>
-      <li>ckostohryz7@gmail.com</li>
-      <li>16516055199</li>
-      <li>Spotify</li>
-      <li>Linkedin</li>
-      <li>Github</li>
-    </ul>
-  </nav>
-  <h4>Made with &#128150; by Chad Kostohryz</h4>
-</footer>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chad Kostohryz Portfolio</title>
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <!--Developer name, recent photo, link selectio about them, their work, and how to contact-->
+  <!--When click link in navigation the ui scrolls to corasponding selection-->
+  <!--i click on link to section about work and ui scrolls to selection with titled image of developers first application that image is larger in size then others-->
+  <!--click on image and am taken to deployed application-->
+  <!--Resize page for multiply screens-->
+<div class="big">
+  <!--a recent image of me-->
+  <header class="header1">
+    <img class="Chad" src="./assets/photo/20211113_101722.jpg" alt="Chad image" />
+
+    <h1>Chad Kostohryz</h1>
+   <!--To navigate between articles-->
+    <nav>
+      <ul class="titles">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--second header to add saying-->
+  <header class="header2">
+    <p>I'm learning how to code.</p>
+  </header>
+</div>
+  <section class="content">
+    <article id="about">
+      <h2 class="story">About</h2>
+      <div class="me"> I started coding by learning to set up networks with a raspberry pi, which led to cryptocurrency mining equipment. I liked it so much that I decided to go to school for such coding endeavors. I went full-time at Rasmussen college then started Bootcamp to move it along faster with the drive to get my computer science degree.
+      </div>
+    </article>
+    <!--articles of work i have done todate with images for work to come-->
+    <article id="work" class="jobs">
+      <h2 class="job">Work</h2>
+      <div class="projects">
+        <!--able to click on images to take me to the-->
+        <div class="project">
+          <h3>A prework Study Guide</h3>
+          <a href="https://ckostohr.github.io/prework-study-guide/" alt="Work">
+            <img class="art" src="assets/photo/Preworkscreenshot.png" alt="prework-study-guide">
+          </a>
+        </div>
+        <div class="project">
+          <h3>Making code Semantic</h3>
+          <a href="https://ckostohr.github.io/Bootcamp01/">
+            <img class="art" src="assets/photo/fanny-gustafsson-cSTreRUUf6M-unsplash.jpg" alt="work2" />
+          </a>
+        </div>
+        <div class="project">
+          <h3>Project coming soon</h3>
+          <a href=""><img class="art" src="assets/photo/steve-johnson-TVnYsnUy0G8-unsplash.jpg" alt="work3" /></a>
+        </div>
+        <div class="project">
+          <h3>Project coming soon</h3>
+          <a href=""><img class="art" src="assets/photo/altumcode-g7UfI6Xsi7o-unsplash.jpg" alt="work4" /></a>
+        </div>
+      </div>
+    </article>
+<!--a way to email me if you would like to contact me-->
+    </article>
+    <article id="contact" class="email">
+      <h2 class="email">Contact me</h2>
+      <a href="mailto:ckostohryz7@gmail.com">Email</a>
+      <a href="https://github.com/CKostohr">GitHub</a>
+      <a href="https://www.linkedin.com/in/chad-kostohryz-884861235">LinkedIn</a>
+    </article>
+  </section>
+  <footer>Thank you for viewing&#128513;  </footer>
 </body>
+
 </html>

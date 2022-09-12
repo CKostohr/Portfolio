@@ -1,3 +1,165 @@
 body {
-    background-color: rgb(223, 238, 245);
-}
+    background-color: rgb(242, 234, 234);
+  }
+  .Chad {
+    border: 35px 35px 35px 35px;
+    height: 200px;
+    border-radius: 40px;
+  }
+  .header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin: 0px;
+  }
+  .header2 {
+    background-color: darkgray;
+    display: flex;
+    height: 40px;
+    color: white;
+    justify-content: end;
+    font-size: 20px;
+    align-items: center;
+  }
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+  }
+  .me {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(4, 1, 9, 0.757);
+  }
+  .art {
+    height: 230px;
+    width: 230px;
+    box-shadow: 10px 10px 8px #888888;
+  }
+  .art1 {
+    height: 200;
+    width: 100%;
+  }
+  .titles {
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+  }
+  a:link, a:visited {
+    background-color: #721d1d80;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgba(42, 35, 35, 0.586);
+  }
+  .content {
+    display: flex;
+    margin: 40px;
+    flex-direction:column;
+  }
+  /*a way to heighlight the nav bar to see what section you are going to click*/
+  a:hover {
+    
+    color: aliceblue;
+  }
+  
+  h2 {
+    font-size: 50px;
+    color: rgb(187, 219, 239);
+    margin: 50px;
+    
+  }
+  article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  /*makes pictures bigger when hoverd over to show what you will click on*/
+  .art:hover {
+    width: 210px;
+    height: 210px;
+  }
+  .art1:hover{
+    width: 110%;
+  }
+  .email {
+    font-size: 30px;
+  }
+  .mess {
+    display: flex;
+    flex-direction: column;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    color: brown;
+  }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  .project {
+    margin: 40px;
+  }
+  
+  article.jobs .project {
+    position: relative;
+  }
+  .project h3 {
+    position: absolute;
+    bottom: 5px;
+    width: 100px;
+    padding: 5px;
+    background-color: aqua;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: rgb(79, 29, 170);
+  }
+  /*media to change for differnt screens*/
+  @media screen and (max-width: 900px) {
+    .header1 {
+      background-color: rgb(94, 7, 89);
+    }
+    h2 {
+      display: flex;
+      align-content: center;
+      transform: rotate(-20deg);
+    }
+    
+    .header2 {
+      display: flex;
+      justify-content: center;
+    }
+  
+   article{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+    a{color: rgb(33, 122, 150);}
+   .art1{
+    height: 230px;
+    width: 230px;
+   }
+   .art1:hover{
+    width: 210px;
+    height: 210px;
+  }
+  }
+  

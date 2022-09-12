@@ -19,5 +19,3 @@ N/A
 ## License
 
 Please refer to the LICENSE in the repo.
-
-![image](./assets/photo/2022-09-12 (3).png)

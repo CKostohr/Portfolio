@@ -48,8 +48,8 @@ body {
     list-style-type: none;
     flex-wrap: wrap;
     gap: 5px;
-    
   }
+/* To make it pop*/
   a:link, a:visited {
     background-color: #721d1d80;
     color: white;
